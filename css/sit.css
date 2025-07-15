@@ -1,0 +1,213 @@
+/* Reset and body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F1;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5D261E;
+    padding: 1rem;
+    color: white;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .search-cart {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .search-cart input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #FCEFE7;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #5D261E;
+    font-weight: bold;
+  }
+  
+  /* Main content layout */
+  main {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 200px;
+    padding: 1rem;
+    background-color: #FDF2E9;
+    border-radius: 10px;
+  }
+  
+  /* Products grid styling */
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    flex: 1;
+    padding: 0 1rem;
+  }
+  
+  /* Individual product card styling */
+  .product-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .buy-btn {
+    background-color: #2E7D32;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+
+  .buy-btn2 {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  
+  /* Footer styling */
+  footer {
+    background-color: #FCEFE7;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  
+  footer div {
+    max-width: 200px;
+  }
+  
+  /* Gallery styling */
+  .gallery {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .gallery img {
+    max-width: 250px;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .sobre {
+    background-color: #FFF6E9;
+    color: #4D2C21;
+    border-radius: 16px;
+    padding: 40px;
+text-align: center;
+  }
+
+  .hero2 {
+    background-image: url('../imagens/produtosf.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .hero {
+    background-image: url('../imagens/massagem.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .hero4 {
+    background-image: url('../imagens/Kits.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .hero5 {
+    background-image: url('../imagens/Chá.png');
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+
+  .hero6 {
+    background-image: url('../imagens/cabelo.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
